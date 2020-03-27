@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "fir-slack-app"
+    "default": "fir-slack-app",
+    "slack": "fir-slack-test"
   }
 }

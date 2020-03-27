@@ -13,8 +13,7 @@ install:
   - cd ..
 script:
   # Before anything else
-  - firebase use --token $FIREBASE_DEPLOY_KEY
-  - firebase use default --token $FIREBASE_DEPLOY_KEY
+  - firebase use slack --token $FIREBASE_DEPLOY_KEY
 
   # Slack configuration
   - sed -i s/{SLACK_ID}/$SLACK_ID/g public/index.html
